@@ -160,7 +160,28 @@ namespace konspekt
             {
                 Console.WriteLine("Ei tea seda värvi");
             }
-            Console.WriteLine("The colour has changed >:D");
+            Console.WriteLine("The colour has changed :D");
+
+            Console.WriteLine("Kas sa tahad ära mõõta pappkasti või õlitünni?");
+            string mõõta = Console.ReadLine();
+            if (mõõta == "pappkasti")
+            {
+                Console.WriteLine("Kas kast on kuubiku kujuline või risttahuka kujuline?");
+                string kast = Console.ReadLine();
+                if (kast == "kuubik")
+                {
+
+                }
+                else if (kast == "risttahukas")
+                        {
+
+                        }
+            }
+            else if (mõõta == "õlitünni")
+            {
+                Console.WriteLine("kas sa tead põhja raadiust või põhja läbimõõtu?");
+
+            }
 
 
 
@@ -182,6 +203,38 @@ namespace konspekt
 
 
 
-        }     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        }   //Kolija kalkulaator
     }         
 }             
