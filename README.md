@@ -1,0 +1,2 @@
+# Konspekt_Angelika_Haav_IKTpe25_1grupp
+Minu konspekt
