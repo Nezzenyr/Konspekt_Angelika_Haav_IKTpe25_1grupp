@@ -308,26 +308,33 @@ namespace konspekt
 
 
                 Console.WriteLine("Sisesta ostusumma");
+
                 double ostusumma = double.Parse(Console.ReadLine());
                 if (ostusumma > 100)
+
                 {
                     Console.WriteLine("Saad 20% allahindlust!");
+
                 }
                 else if (ostusumma > 50 && ostusumma < 101)
                 {
                     Console.WriteLine("Saad 10% allahindlust!");
+
                 }
                 else if (ostusumma > 21 && ostusumma < 51)
                 {
                     Console.WriteLine("Saad 5% allahindlust!");
+
                 }
                 else if (ostusumma < 21)
                 {
                     Console.WriteLine("Allahindlust ei saa");
+
                 }
                 else if (ostusumma < 1)
                 {
                     Console.WriteLine("sisestatud vigane arv");
+
                 }
             }
 
