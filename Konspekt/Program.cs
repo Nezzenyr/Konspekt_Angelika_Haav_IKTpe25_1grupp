@@ -380,6 +380,34 @@ namespace konspekt
             //ja eelneva tingimuse mittetäitumisel teostatakse koodiploki sees olev kood.
             else {} //kaitstatud sõna else kutsub esile  järeletingimuse, millele peab eelnema kas if või else if, ning mille koodi-
                     //plokki sisu täidetakse kõikide if ja else if sees olevate tingimuste läbikukkumisel.
+            int option = 3;
+            switch (option) //switch on kaitstud sõna alternatiivse tingimuskontrolli jaoks mida saab if else-if asemel kasutada
+                //sulgude vahele käib muutuja nimi, mille põhjal tingimuslik ümberlülitus toimub. Siin sulgude vahel
+                //ei ole tingimus ise, vaid kõigest kontrollitav muutja, või omakorda sulgude vahel muu tingimus.
+                //pärast lülitusvalikut tuleb koodiplokk
+                //koodiploki sees on erinevad juht,id, juhtmit kontrollitakse kaitsted sõna "case" abil. antud juhul
+                //kontrollitakse, kas kuutujas on väärtus 1, millele järgned koolon " : "
+                //peale koolonit kirjeldatakse tehtav tegevus
+                //ja kui tegevus on täidetud, väljutakse kogi switchi tegevusest kaitstud sõna "break"iga. Pealse "break"i
+                //on lause lõppumärk " ; "
+
+
+            {
+                case 1:
+                    break;
+                    case 2:
+                    break;
+                    case 3:
+                        //juhtumeid võib olla mitmeid, antud juhul on neid kolm kindlalt, ja üks mida tehakse igal muul juhul.
+                        //kasutatud sõna "default" avab juhtumi kui muutujas ei ole mitte ühtegi muud "case" juhtumi tingimust.
+                        //
+                default:
+                    break;
+            }
+
+            //*Sõne tööriistad jm tekstiga seotud*
+            string alfa = "a\nb";       // \n -> tekitab ühe sõne sisse reamurde, sõne kus on üks "\n" omab kahte rida.
+            string beta = $"{alfa} b"; // $ -> lubab kasutada mutujaid logeliste sulgude vahel otse teksti sees
 
             //* loogilised tehted *//
             //&& -> "and" loogiline tehe, mida kasutatakse tingimuste kirjutamisel, ning mis annab positiivse vastuse (true) juhul kui
@@ -416,11 +444,19 @@ namespace konspekt
 
             //*tsüklid*//
             //1. do-while
-            do
+            do //"do" on kaitstud sõna, mis alustab do-while tsüklit pärast mida on koodiplokk, ning ütleb et tee seda koodi.
             {
 
-            } while (true);
+            } while (true); //niikaua kuni while järel olevate sulgude vahel olev tingimus on täidetud.
+           
+            //2. while
+            int i = 1;
+            while (i < 5); //"while" pn kaitstud sõna mis alustab while tsükli varianti, ilma "do"-ta, ning vajab tihtipeale välist tsüklimuutujat
+            //antud juhul on selleks i. tsükli tingimus, mis peale "while" sõna on, sulgude vahel, kontrollibki tingimuse abil, selle
+            //muutuja olekut. Siin kontrollitakse, et tsükkel ei oleks suurem kui 5, kui ta on, siis tsükkli töö lõppeb.
 
+            //koodiplokk kus midagi tehakse
+            i++; //ning seejärel muudetakse tsüklimuutuja "i" olekut, antud juhul liidetakse 1 juurde
 
 
 
