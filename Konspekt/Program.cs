@@ -307,32 +307,36 @@ namespace konspekt
                 Console.WriteLine($" {tehtetüüp2} tehte tulemus: {tehe2}");
 
 
-                Console.WriteLine("Sisesta ostusumma");
+                Console.WriteLine("Sisesta ostusumma");    //Küsi kasutajast sisestada ostusumma kasutades Console.WriteLine.
 
-                double ostusumma = double.Parse(Console.ReadLine());
-                if (ostusumma > 100)
+                double ostusumma = double.Parse(Console.ReadLine()); //Loe kasutajana sisestatud ostusumma ja sisesta seda ostusumma-sse kasutades double.Parse(Console.ReadLine());
+                if (ostusumma > 100)                                 
 
                 {
-                    Console.WriteLine("Saad 20% allahindlust!");
+                    Console.WriteLine("Saad 20% allahindlust!");     //Kontrolli kas ostusumma on suurem kui 100, kui on siis kuva kasutajale tekst "Saad 20% allahindlust!" kasutades
+                                                                     //Console.WriteLine
 
                 }
-                else if (ostusumma > 50 && ostusumma < 101)
+                else if (ostusumma > 50 && ostusumma < 101)                
                 {
-                    Console.WriteLine("Saad 10% allahindlust!");
+                    Console.WriteLine("Saad 10% allahindlust!");     //Kontrolli kas ostusumma on suurem kui 50 ja väiksem kui 101, kui on siis kuva kasutajale tekst "Saad 10% allahindlust!"
+                                                                     //kasutades Console.WriteLine
 
                 }
-                else if (ostusumma > 21 && ostusumma < 51)
+                else if (ostusumma > 21 && ostusumma < 51)           //Kontrolli kas ostusumma on suurem kui 21 ja väiksem kui 51, kui on siis kuva kasutajale tekst "saad 5% allahindlust!"
+                                                                     //kasutades Console.WriteLine
                 {
                     Console.WriteLine("Saad 5% allahindlust!");
 
                 }
-                else if (ostusumma < 21)
-                {
+                else if (ostusumma < 21)                             //Kontrolli kas ostusumma on väiksem kui 21, kui on siis kuva kasutajale tekst "Allahindlust ei saa" kasutades Console.WriteLine
+                { 
                     Console.WriteLine("Allahindlust ei saa");
 
                 }
-                else if (ostusumma < 1)
-                {
+                else if (ostusumma < 1)                              //Kontrolli kas ostusumma on väiksem kui 1, kui on siis kuva kasutajale tekst "sisestatud vigane arv" kasutades
+                                                                     //Console.WriteLine
+                { 
                     Console.WriteLine("sisestatud vigane arv");
 
                 }
