@@ -265,6 +265,12 @@ namespace konspekt
                 var y = 123;
                 const int z = 3;//konstant tüüpi muutujaid ei saa muuta, need on read-only
 
+                //vüimalikud komposititandmetüübid:
+                // [] -> Massiiv on komposiitandmetüüp, mille sees saab olla mitmeid sama ttüüpi lihtandmeid. Massiivi tähistatakse kantsulgudega.
+                //       Massiivne saab olla ükskõik millist lihtandmetüüpi massiive.
+
+
+
 
                 //põhilised matemaatilised tehted
                 int liitmine2= 1 + 1; //liitmine, kaks arvu kokku
@@ -462,9 +468,14 @@ namespace konspekt
             //koodiplokk kus midagi tehakse
             i++; //ning seejärel muudetakse tsüklimuutuja "i" olekut, antud juhul liidetakse 1 juurde
 
-
-
-
+            //3. For
+            int kogus = 6;                 //muutuja mida tsükkel kasutab töötlemiseks mingisugusel kujul
+            for (int k = 0; k < kogus; k++) //kaitstud sõna "for"alu8stab for tsüklit, pärast mida on sulud, mille vahel on kõik tsükli töö jaoks
+            {                               //vajalik info. esimene parameeter tekitab tsükli töö jaoks muutuja, teine parameeter on tingimuslause
+                Console.WriteLine(k);       //mis kontrollib tingimuse täitlikust "k < kogus;" ning kolmas inkrementeerib tekitatud muutujat. "k++;"
+            }                               //pane tähele et iga sulgude vahel oleva osa järel on  lauselõpumärk. Tsükli tööd kontrolliv tingimuslause
+                                            //koosneb kolmest reast, mille ühest, nagu white, või do-white puhul. koodiplokk kus tehakse mingi tegevus
+                                            //antud juhul on tegevuseks muutuja "k" arvu väljakuvamine.
 
 
 

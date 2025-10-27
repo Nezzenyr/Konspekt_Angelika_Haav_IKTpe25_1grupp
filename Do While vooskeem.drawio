@@ -1,0 +1,194 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="2066" dy="1201" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="JDr5AudFD_a2QVIVuO6P-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JDr5AudFD_a2QVIVuO6P-0" target="JDr5AudFD_a2QVIVuO6P-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JDr5AudFD_a2QVIVuO6P-0" value="Algus" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="360" y="10" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JDr5AudFD_a2QVIVuO6P-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JDr5AudFD_a2QVIVuO6P-3" target="JDr5AudFD_a2QVIVuO6P-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JDr5AudFD_a2QVIVuO6P-18" value="JAH" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JDr5AudFD_a2QVIVuO6P-17">
+          <mxGeometry x="-0.1619" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JDr5AudFD_a2QVIVuO6P-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JDr5AudFD_a2QVIVuO6P-3" target="JDr5AudFD_a2QVIVuO6P-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="80" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="495" />
+              <mxPoint x="600" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JDr5AudFD_a2QVIVuO6P-20" value="EI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JDr5AudFD_a2QVIVuO6P-19">
+          <mxGeometry x="-0.0301" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JDr5AudFD_a2QVIVuO6P-3" value="Kas kasutaja sisestas kasutajanimeks User1?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="340" y="440" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="JDr5AudFD_a2QVIVuO6P-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JDr5AudFD_a2QVIVuO6P-7" target="JDr5AudFD_a2QVIVuO6P-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JDr5AudFD_a2QVIVuO6P-7" value="Kuva kasutajale tekst&lt;div&gt;&quot;Palun sisesta oma kasutajanimi&quot;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="310" y="130" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JDr5AudFD_a2QVIVuO6P-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JDr5AudFD_a2QVIVuO6P-13" target="JDr5AudFD_a2QVIVuO6P-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JDr5AudFD_a2QVIVuO6P-13" value="Loe kasutajana sisestatud kasutajanime Console.Readline abil ja sisesta seda kasutajaNimi-sse" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="295" y="270" width="250" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="JDr5AudFD_a2QVIVuO6P-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JDr5AudFD_a2QVIVuO6P-16" target="JDr5AudFD_a2QVIVuO6P-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JDr5AudFD_a2QVIVuO6P-16" value="Kuva kasutajale tekst &quot;Kui suurt ruutu sa tahad?&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="290" y="620" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JDr5AudFD_a2QVIVuO6P-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JDr5AudFD_a2QVIVuO6P-21" target="JDr5AudFD_a2QVIVuO6P-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JDr5AudFD_a2QVIVuO6P-21" value="Loe kasutajana sisestatud ruudusuurust Console.Readline abil ja sisesta seda ruuduSuurus-sse" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="295" y="720" width="250" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="JDr5AudFD_a2QVIVuO6P-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JDr5AudFD_a2QVIVuO6P-23" target="JDr5AudFD_a2QVIVuO6P-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="925" />
+              <mxPoint x="580" y="655" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JDr5AudFD_a2QVIVuO6P-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JDr5AudFD_a2QVIVuO6P-23" target="JDr5AudFD_a2QVIVuO6P-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JDr5AudFD_a2QVIVuO6P-39" value="EI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JDr5AudFD_a2QVIVuO6P-32">
+          <mxGeometry x="-0.15" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JDr5AudFD_a2QVIVuO6P-23" value="Kas ruudu suurus on väiksem kui 0?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="305" y="880" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="JDr5AudFD_a2QVIVuO6P-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JDr5AudFD_a2QVIVuO6P-30" target="JDr5AudFD_a2QVIVuO6P-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="1055" />
+              <mxPoint x="580" y="655" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JDr5AudFD_a2QVIVuO6P-41" value="JAH" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JDr5AudFD_a2QVIVuO6P-34">
+          <mxGeometry x="0.2495" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JDr5AudFD_a2QVIVuO6P-42" value="JAH" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JDr5AudFD_a2QVIVuO6P-34">
+          <mxGeometry x="-0.534" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JDr5AudFD_a2QVIVuO6P-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JDr5AudFD_a2QVIVuO6P-30" target="JDr5AudFD_a2QVIVuO6P-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JDr5AudFD_a2QVIVuO6P-30" value="Kas ruudu suurus on suurem kui 20?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="305" y="1010" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="JDr5AudFD_a2QVIVuO6P-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JDr5AudFD_a2QVIVuO6P-36" target="JDr5AudFD_a2QVIVuO6P-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JDr5AudFD_a2QVIVuO6P-36" value="Tekita muutuja nimega reaKujund milles on &#39;█&#39;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="360" y="1150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JDr5AudFD_a2QVIVuO6P-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JDr5AudFD_a2QVIVuO6P-43" target="JDr5AudFD_a2QVIVuO6P-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JDr5AudFD_a2QVIVuO6P-43" value="Tekita string nimega üksRida mis sisaldab väärtust &#39;█&#39;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="345" y="1250" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JDr5AudFD_a2QVIVuO6P-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JDr5AudFD_a2QVIVuO6P-47" target="JDr5AudFD_a2QVIVuO6P-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JDr5AudFD_a2QVIVuO6P-47" value="Tekita tsüklimuutuja mis võrdub&amp;nbsp; ruuduSuurusega" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="334.5" y="1369" width="171" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JDr5AudFD_a2QVIVuO6P-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JDr5AudFD_a2QVIVuO6P-49" target="JDr5AudFD_a2QVIVuO6P-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JDr5AudFD_a2QVIVuO6P-49" value="Muutujale üksRida liida otsa reaKujund" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="297" y="1509" width="247" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JDr5AudFD_a2QVIVuO6P-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JDr5AudFD_a2QVIVuO6P-51" target="JDr5AudFD_a2QVIVuO6P-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JDr5AudFD_a2QVIVuO6P-51" value="Lahuta 1 tsüklimuutujast" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="321" y="1649" width="199" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JDr5AudFD_a2QVIVuO6P-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JDr5AudFD_a2QVIVuO6P-55" target="JDr5AudFD_a2QVIVuO6P-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JDr5AudFD_a2QVIVuO6P-69" value="ei" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JDr5AudFD_a2QVIVuO6P-59">
+          <mxGeometry x="-0.2511" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JDr5AudFD_a2QVIVuO6P-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JDr5AudFD_a2QVIVuO6P-55" target="JDr5AudFD_a2QVIVuO6P-49">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="547" y="1839" />
+              <mxPoint x="547" y="1539" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JDr5AudFD_a2QVIVuO6P-68" value="jah" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JDr5AudFD_a2QVIVuO6P-66">
+          <mxGeometry x="0.0942" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JDr5AudFD_a2QVIVuO6P-55" value="KAS TSÜKLIMUUTUJA ON midagi muud KUI 0?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="336" y="1779" width="168" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="JDr5AudFD_a2QVIVuO6P-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JDr5AudFD_a2QVIVuO6P-58" target="JDr5AudFD_a2QVIVuO6P-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JDr5AudFD_a2QVIVuO6P-58" value="KIRJUTA ÜKSRIDA" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="303" y="1962" width="234" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JDr5AudFD_a2QVIVuO6P-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JDr5AudFD_a2QVIVuO6P-60" target="JDr5AudFD_a2QVIVuO6P-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JDr5AudFD_a2QVIVuO6P-60" value="GET SQUARE" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="354" y="2206" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JDr5AudFD_a2QVIVuO6P-62" value="END" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="380" y="2411" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JDr5AudFD_a2QVIVuO6P-70" value="Lahuta 1 tsüklimuutujast" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="323" y="2044" width="199" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JDr5AudFD_a2QVIVuO6P-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JDr5AudFD_a2QVIVuO6P-73">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="2218" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JDr5AudFD_a2QVIVuO6P-73" value="Tekita tsüklimuutuja mis võrdub&amp;nbsp; ruuduSuurusega" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="335" y="2129" width="171" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JDr5AudFD_a2QVIVuO6P-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JDr5AudFD_a2QVIVuO6P-76" target="JDr5AudFD_a2QVIVuO6P-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JDr5AudFD_a2QVIVuO6P-76" value="kuva kasutajale tekst &quot;&amp;amp;Palun, siin on sinu ruut suurusega {ruuduSuurus} x {ruuduSuurus}&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="275" y="2295" width="290" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
