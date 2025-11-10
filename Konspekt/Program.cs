@@ -477,6 +477,12 @@ namespace konspekt
                                             //koosneb kolmest reast, mille ühest, nagu white, või do-white puhul. koodiplokk kus tehakse mingi tegevus
                                             //antud juhul on tegevuseks muutuja "k" arvu väljakuvamine.
 
+            //4.foreachint
+            int[] arvuLoend = { 3, 89, 123412, 7, 67 }; //massiv mida foreach kasutab või töötleb mingil kujul.
+             foreach (var arvInLoend in arvuLoend)      //
+            {                                           //
+                                                        //
+            }                                           //
 
 
 
