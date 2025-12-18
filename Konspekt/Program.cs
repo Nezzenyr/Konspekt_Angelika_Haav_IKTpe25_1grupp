@@ -486,7 +486,11 @@ namespace konspekt
 
 
 
-
+            //Castimine //
+            //Castimine on viis, kuidas ühest andmetüübist teist saada. Castimist on kahte eri liiki, automaatne ja manuaalne.
+            //Automaatle castmine toimub siis, kui teisendatakse väiksemast andmetüübist suuremasse.
+            //Manuaalne castmine toimub siis, kui teisendatakse saada suuremast andmetüübist väiksemat.
+            // Castitakse nii, et teisendatava muutuja ette, pannakse sulud koos soovitud andmetüübiga
 
 
 
