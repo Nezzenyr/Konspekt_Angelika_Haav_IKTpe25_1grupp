@@ -479,10 +479,15 @@ namespace konspekt
 
             //4.foreachint
             int[] arvuLoend = { 3, 89, 123412, 7, 67 }; //massiv mida foreach kasutab või töötleb mingil kujul.
-             foreach (var arvInLoend in arvuLoend)      //
-            {                                           //
-                                                        //
-            }                                           //
+             foreach (var arvInLoend in arvuLoend)      //kaitstud sõna foreach alustab foreach tsükli. Pärast mida on sulud, mille vahell tekitatakse
+            {                                           //ajuitne muutuja andmetüübiga "var" töödekdava andmekogumi üksikelemendi jaoks. Süntaksis olev
+                                                        //Kaitstud sõna "in" väljendab et tsükkel käib selle loendi elementide kohta, ning var "aevInLoend"
+            }                                           //muutuja hoiab endas just peale sõna "in" oleva andmekogumi elementi. tsüklil ei ole nähtavat
+                                                        //tsüklimuutujat ega tingimust, tsükkel toimib niikaua kuni elemente jätkub ehk tsükli töö käib
+                                                        //iga üksiku elenmendi kohta andmemogumis. tsülil ei ola vaja tükilimuutujat, kuna talle on sisse
+                                                        //ehitatud vaikimisi elemendi järjestuse jälgimine niipalju kui andmeid on, ongi see,
+                                                        // {} koodiplokk kus tehakse mingi tegevus
+                                                        //antud juhul kuvatakse välja ajuline muutuja, mille sees on loendi element.
 
 
 
